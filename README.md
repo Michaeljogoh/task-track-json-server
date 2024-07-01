@@ -12,7 +12,7 @@ Demo from this repository:
 ### How to use
 
 1. Click "**Use this template**" or clone this repository.
-2. Update or use the default [`db.json`](./db.json) in the repository.
+2. Update or use the default [`task.json`](task.json) in the repository.
 3. Sign Up or login into [Vercel](https://vercel.com).
 4. From the Vercel dashboard, click "**+ New Project**" then "**Import**" your repository.
 5. In the "**Configure Project**" screen, leave everything default and click "**Deploy**".
@@ -22,13 +22,20 @@ Demo from this repository:
 
 ```json
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "tasks": [
+        {
+      "id": "b88839a5-56e1-4083-8aca-a0a4ad0f4740",
+      "text": "this.getAllData()"
+    },
+    {
+      "id": "fa7d1aea-59ff-4f7b-9e04-9251c20b6234",
+      "text": "everywhere you go "
+    },
+    {
+      "id": "f69d92fe-f721-40c1-8431-58d6da062d17",
+      "text": "saas, iaas"
+    }
+  ]
 }
 ```
 
